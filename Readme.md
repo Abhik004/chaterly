@@ -1,7 +1,7 @@
 # 🚀 Chaterly - Collaborative Chat with AI Superpowers
 
-![Chaterly Banner 1](https://drive.google.com/file/d/1VuoYX1MIYKaMc5sLsAxaIWF0_PHQfrMF)
-![Chaterly Banner 2](https://drive.google.com/file/d/14jD4kOm3ThEHcxXSq03JOV52nX-Q034B)
+![Chaterly Banner 1](https://i.postimg.cc/WDpDZT48/Screenshot-2025-01-13-191626.png)
+![Chaterly Banner 2](https://i.postimg.cc/QFJ9VHjV/Screenshot-2025-01-13-192011.png)
 
 Chaterly is a powerful real-time collaboration platform that combines chat functionality with AI assistance, enabling seamless communication and code generation capabilities.
 
