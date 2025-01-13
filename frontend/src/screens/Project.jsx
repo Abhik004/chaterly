@@ -15,7 +15,6 @@ function SyntaxHighlightedCode(props) {
         if (ref.current && props.className?.includes('lang-') && window.hljs) {
             window.hljs.highlightElement(ref.current)
 
-            // hljs won't reprocess the element unless this attribute is removed
             ref.current.removeAttribute('data-highlighted')
         }
     }, [ props.className, props.children ])
@@ -65,18 +64,17 @@ const Project = () => {
 
 
     function addCollaborators() {
-
+        const userIds = Array.from(selectedUserId).map(String); 
+    
         axios.put("/projects/add-user", {
             projectId: location.state.project._id,
-            users: Array.from(selectedUserId)
+            users: userIds
         }).then(res => {
-            console.log(res.data)
-            setIsModalOpen(false)
-
+            console.log(res.data);
+            setIsModalOpen(false);
         }).catch(err => {
-            console.log(err)
-        })
-
+            console.log(err);
+        });
     }
 
     const send = () => {

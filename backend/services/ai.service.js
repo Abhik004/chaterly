@@ -13,7 +13,7 @@ const model = genAI.getGenerativeModel({
     Examples: 
 
     <example>
-
+ 
     response: {
 
     "text": "this is you fileTree structure of the express server",
@@ -81,20 +81,21 @@ const model = genAI.getGenerativeModel({
 }
 
     user:Create an express application 
-
+   
     </example>
 
 
     
-    <example>
+       <example>
 
-        user:Hello 
-        response:{
-        "text":"Hello, How can I help you today?"
-        }
-    </example>
+       user:Hello 
+       response:{
+       "text":"Hello, How can I help you today?"
+       }
+       
+       </example>
     
-    IMPORTANT : don't use file name like routes/index.js
+ IMPORTANT : don't use file name like routes/index.js, remember don't use routes/indes.js.. just write routes.js in that case
 
 
     `
